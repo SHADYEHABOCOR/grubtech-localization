@@ -1,0 +1,342 @@
+{
+  "navigation": {
+    "restaurants": "المطاعم",
+    "solutions": "الحلول",
+    "integrations": "التكاملات",
+    "resources": "الموارد",
+    "company": "الشركة",
+    "login": "تسجيل الدخول",
+    "lets_talk": "دعنا نتحدث",
+    "about_us": "من نحن",
+    "careers": "الوظائف",
+    "blog": "المدونة",
+    "knowledge_base": "قاعدة المعرفة"
+  },
+  "hero": {
+    "title": "المطاعم الذكية تعمل على جروب تك",
+    "subtitle": "نحن نربط أنظمة مطعمك - من الطلبات عبر الإنترنت إلى نقاط البيع إلى التوصيل - حتى يعمل كل شيء بسلاسة وسرعة وذكاء أكبر.",
+    "cta_button": "دعنا نتحدث",
+    "learn_more": "اعرف المزيد"
+  },
+  "personas": {
+    "smbs": {
+      "title": "الشركات الصغيرة والمتوسطة",
+      "subtitle": "حلول مخصصة للمطاعم النامية",
+      "description": "بسط العمليات ووسع بكفاءة مع منصة إدارة المطاعم الشاملة المصممة للشركات الصغيرة والمتوسطة.",
+      "features": {
+        "order_management": "إدارة الطلبات المركزية",
+        "pos_integration": "تكامل نقاط البيع السلس",
+        "delivery_coordination": "تنسيق التوصيل",
+        "analytics": "تحليلات الأعمال",
+        "multi_channel": "دعم متعدد القنوات"
+      },
+      "benefits": {
+        "reduce_errors": "تقليل أخطاء الطلبات بنسبة 90%",
+        "increase_efficiency": "زيادة الكفاءة التشغيلية",
+        "scale_growth": "التوسع مع نموك",
+        "cost_savings": "تقليل التكاليف التشغيلية"
+      }
+    },
+    "regional_chains": {
+      "title": "السلاسل الإقليمية",
+      "subtitle": "إدارة موحدة للعمليات متعددة المواقع",
+      "description": "إدارة مواقع متعددة مع التحكم المركزي والمزامنة في الوقت الفعلي والتقارير الشاملة عبر سلسلتك الإقليمية.",
+      "features": {
+        "centralized_management": "الإدارة المركزية",
+        "real_time_sync": "المزامنة في الوقت الفعلي",
+        "multi_location": "دعم المواقع المتعددة",
+        "brand_consistency": "اتساق العلامة التجارية",
+        "performance_tracking": "تتبع الأداء"
+      },
+      "benefits": {
+        "unified_operations": "عمليات موحدة عبر المواقع",
+        "consistent_experience": "تجربة عملاء متسقة",
+        "centralized_reporting": "التقارير والتحليلات المركزية",
+        "efficient_scaling": "التوسع والتوسيع الكفء"
+      }
+    },
+    "global_chains": {
+      "title": "السلاسل العالمية",
+      "subtitle": "حلول على مستوى المؤسسات للعمليات الدولية",
+      "description": "قم بتشغيل عمليات مطاعمك العالمية بتقنية على مستوى المؤسسات ودعم متعدد الأسواق والتحليلات المتقدمة.",
+      "features": {
+        "enterprise_grade": "تقنية على مستوى المؤسسات",
+        "multi_market": "دعم متعدد الأسواق",
+        "advanced_analytics": "التحليلات المتقدمة",
+        "compliance": "الامتثال العالمي",
+        "scalability": "قابلية التوسع غير المحدودة"
+      },
+      "benefits": {
+        "global_operations": "عمليات عالمية سلسة",
+        "market_adaptation": "التكيف مع السوق المحلي",
+        "enterprise_security": "أمان على مستوى المؤسسات",
+        "24_7_support": "دعم عالمي على مدار الساعة"
+      }
+    },
+    "dark_kitchens": {
+      "title": "المطابخ المظلمة",
+      "subtitle": "محسنة لعمليات التوصيل فقط",
+      "description": "قم بتحقيق أقصى كفاءة في مطبخك المظلم مع أدوات متخصصة لعمليات التوصيل والعلامات التجارية الافتراضية وسير العمل المحسن.",
+      "features": {
+        "delivery_optimization": "تحسين التوصيل",
+        "virtual_brands": "إدارة العلامات التجارية الافتراضية",
+        "kitchen_efficiency": "أدوات كفاءة المطبخ",
+        "order_routing": "توجيه الطلبات الذكي",
+        "capacity_management": "إدارة السعة"
+      },
+      "benefits": {
+        "maximize_throughput": "تحقيق أقصى إنتاجية للمطبخ",
+        "virtual_brand_support": "دعم علامات تجارية افتراضية متعددة",
+        "delivery_focus": "عمليات تركز على التوصيل",
+        "cost_optimization": "تحسين التكاليف التشغيلية"
+      }
+    }
+  },
+  "solutions": {
+    "gonline": {
+      "title": "جى أونلاين",
+      "subtitle": "الطريقة الأبسط والأسرع لإدارة طلباتك",
+      "description": "وداعاً للتذاكر الورقية واطبخ بدقة. جى أونلاين يربط جميع قنوات الطلبات في نظام موحد واحد.",
+      "features": {
+        "unified_orders": "إدارة الطلبات الموحدة",
+        "pos_integration": "تكامل نقاط البيع",
+        "delivery_platforms": "تكامل منصات التوصيل",
+        "real_time_updates": "التحديثات في الوقت الفعلي",
+        "error_reduction": "تقليل الأخطاء"
+      },
+      "benefits": {
+        "streamline_operations": "تبسيط عمليات المطعم",
+        "reduce_errors": "تقليل أخطاء الطلبات بشكل كبير",
+        "increase_efficiency": "زيادة كفاءة المطبخ",
+        "better_customer_service": "تحسين خدمة العملاء"
+      }
+    },
+    "gonline_lite": {
+      "title": "جى أونلاين لايت",
+      "subtitle": "إدارة الطلبات الأساسية للمطاعم الصغيرة",
+      "description": "مثالي للمطاعم والمقاهي الصغيرة التي تبحث عن إدارة طلبات أساسية بدون التعقيد.",
+      "features": {
+        "basic_orders": "إدارة الطلبات الأساسية",
+        "simple_integration": "التكامل البسيط",
+        "essential_features": "الميزات الأساسية",
+        "easy_setup": "الإعداد السهل",
+        "affordable": "التسعير المعقول"
+      },
+      "benefits": {
+        "perfect_for_small": "مثالي للمطاعم الصغيرة",
+        "easy_to_use": "سهل الاستخدام والتطبيق",
+        "cost_effective": "حل فعال من حيث التكلفة",
+        "quick_setup": "الإعداد والنشر السريع"
+      }
+    },
+    "gdispatch": {
+      "title": "جى دسباتش",
+      "subtitle": "أخرج الطلبات بسرعة أكبر مع تنسيق التوصيل في الوقت الفعلي",
+      "description": "قم بتحسين عمليات التوصيل مع التوجيه الذكي والتتبع في الوقت الفعلي وتنسيق السائقين السلس.",
+      "features": {
+        "intelligent_routing": "التوجيه الذكي",
+        "real_time_tracking": "التتبع في الوقت الفعلي",
+        "driver_coordination": "تنسيق السائقين",
+        "delivery_optimization": "تحسين التوصيل",
+        "customer_communication": "تواصل العملاء"
+      },
+      "benefits": {
+        "faster_delivery": "أوقات توصيل أسرع",
+        "reduced_costs": "تقليل تكاليف التوصيل",
+        "better_tracking": "تتبع توصيل أفضل",
+        "improved_customer_satisfaction": "تحسين رضا العملاء"
+      }
+    },
+    "gkds": {
+      "title": "جى كى دى إس",
+      "subtitle": "نظام عرض المطبخ لإدارة الطلبات بكفاءة",
+      "description": "قم بتحويل عمليات مطبخك مع نظام عرض المطبخ المتقدم المصمم للسرعة والدقة.",
+      "features": {
+        "kitchen_display": "نظام عرض المطبخ",
+        "order_prioritization": "أولوية الطلبات",
+        "cooking_timers": "مؤقتات الطهي",
+        "kitchen_analytics": "تحليلات المطبخ",
+        "multi_station": "دعم المحطات المتعددة"
+      },
+      "benefits": {
+        "kitchen_efficiency": "تحسين كفاءة المطبخ",
+        "order_accuracy": "زيادة دقة الطلبات",
+        "faster_preparation": "تحضير الطعام الأسرع",
+        "better_coordination": "تنسيق أفضل للمطبخ"
+      }
+    },
+    "gdata": {
+      "title": "جى داتا",
+      "subtitle": "اكتشف رؤى قوية حول مطعمك",
+      "description": "اتخذ قرارات مدفوعة بالبيانات مع التحليلات الشاملة والتقارير والرؤى حول عمليات مطعمك.",
+      "features": {
+        "comprehensive_analytics": "التحليلات الشاملة",
+        "real_time_reporting": "التقارير في الوقت الفعلي",
+        "performance_insights": "رؤى الأداء",
+        "trend_analysis": "تحليل الاتجاهات",
+        "custom_dashboards": "لوحات التحكم المخصصة"
+      },
+      "benefits": {
+        "data_driven_decisions": "اتخاذ قرارات مدفوعة بالبيانات",
+        "performance_optimization": "تحسين الأداء",
+        "identify_trends": "تحديد الاتجاهات والفرص",
+        "improve_profitability": "تحسين الربحية"
+      }
+    }
+  },
+  "integrations": {
+    "pos_systems": {
+      "title": "أنظمة نقاط البيع",
+      "description": "تكامل سلس مع أنظمة نقاط البيع الرائدة لتبسيط عملياتك وتقليل العمل اليدوي.",
+      "features": {
+        "seamless_integration": "التكامل السلس",
+        "real_time_sync": "المزامنة في الوقت الفعلي",
+        "unified_dashboard": "لوحة التحكم الموحدة",
+        "payment_processing": "معالجة المدفوعات",
+        "inventory_management": "إدارة المخزون"
+      },
+      "partners": [
+        "سكوير",
+        "تواست",
+        "كلوفر",
+        "لايت سبيد",
+        "تاتش بيسترو"
+      ]
+    },
+    "delivery_platforms": {
+      "title": "منصات التوصيل",
+      "description": "اتصل بجميع منصات التوصيل الرئيسية لإدارة الطلبات من لوحة تحكم واحدة.",
+      "features": {
+        "multi_platform": "دعم متعدد المنصات",
+        "unified_orders": "إدارة الطلبات الموحدة",
+        "real_time_updates": "التحديثات في الوقت الفعلي",
+        "commission_tracking": "تتبع العمولات",
+        "performance_analytics": "تحليلات الأداء"
+      },
+      "partners": [
+        "أوبر إيتس",
+        "دور داش",
+        "جراب هاب",
+        "بوست ميتس",
+        "دليفرو"
+      ]
+    },
+    "fulfillment": {
+      "title": "الوفاء",
+      "description": "قم بتحسين عمليات الوفاء مع تكامل الخدمات اللوجستية لطرف ثالث والتوجيه الذكي.",
+      "features": {
+        "logistics_integration": "تكامل الخدمات اللوجستية",
+        "smart_routing": "التوجيه الذكي",
+        "capacity_optimization": "تحسين السعة",
+        "delivery_tracking": "تتبع التوصيل",
+        "cost_optimization": "تحسين التكلفة"
+      },
+      "partners": [
+        "فيديكس",
+        "يو بي إس",
+        "دي إتش إل",
+        "الموصلين المحليين",
+        "إدارة الأسطول"
+      ]
+    },
+    "erp_systems": {
+      "title": "أنظمة تخطيط موارد المؤسسة",
+      "description": "تكامل مع أنظمة تخطيط موارد المؤسسة للإدارة الشاملة للأعمال.",
+      "features": {
+        "enterprise_integration": "التكامل على مستوى المؤسسات",
+        "financial_management": "الإدارة المالية",
+        "supply_chain": "إدارة سلسلة التوريد",
+        "hr_integration": "تكامل الموارد البشرية",
+        "compliance": "إدارة الامتثال"
+      },
+      "partners": [
+        "ساب",
+        "أوراكل",
+        "مايكروسوفت دايناميكس",
+        "نت سويت",
+        "سايج"
+      ]
+    }
+  },
+  "about": {
+    "title": "حول جروب تك",
+    "subtitle": "تمكين المطاعم بالتقنية الذكية",
+    "mission": "مهمتنا هي تبسيط عمليات المطاعم ومساعدة الشركات على الازدهار في العصر الرقمي.",
+    "vision": "أن نكون المنصة الرائدة التي تربط جميع أنظمة المطاعم، مما يجعل العمليات سلسة وفعالة.",
+    "values": {
+      "innovation": "الابتكار",
+      "reliability": "الموثوقية",
+      "customer_focus": "التركيز على العملاء",
+      "simplicity": "البساطة",
+      "growth": "النمو"
+    },
+    "team": {
+      "title": "فريقنا",
+      "description": "فريق متنوع من الخبراء المتحمسين لتقنية المطاعم ونجاح العملاء."
+    },
+    "story": {
+      "title": "قصتنا",
+      "description": "تأسست برؤية تبسيط عمليات المطاعم، نمت جروب تك لخدمة آلاف المطاعم في جميع أنحاء العالم."
+    }
+  },
+  "careers": {
+    "title": "انضم إلى فريقنا",
+    "subtitle": "ابن مستقبل تقنية المطاعم",
+    "description": "نحن نبحث عن أفراد موهوبين متحمسين للتكنولوجيا ويريدون إحداث فرق في صناعة المطاعم.",
+    "benefits": {
+      "competitive_salary": "راتب تنافسي",
+      "health_insurance": "التأمين الصحي",
+      "flexible_work": "ترتيبات العمل المرنة",
+      "professional_development": "التطوير المهني",
+      "team_events": "أحداث الفريق"
+    },
+    "open_positions": {
+      "title": "المناصب المفتوحة",
+      "engineering": "الهندسة",
+      "product": "المنتج",
+      "sales": "المبيعات",
+      "marketing": "التسويق",
+      "customer_success": "نجاح العملاء"
+    },
+    "culture": {
+      "title": "ثقافتنا",
+      "description": "نحن نعزز ثقافة الابتكار والتعاون والتعلم المستمر."
+    }
+  },
+  "connect": {
+    "title": "تواصل معنا",
+    "subtitle": "تواصل مع فريقنا",
+    "description": "مستعد لتحويل عمليات مطعمك؟ دعنا نتحدث عن كيفية مساعدة جروب تك لعملك على النمو.",
+    "contact_methods": {
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "chat": "الدردشة المباشرة",
+      "demo": "جدولة عرض توضيحي"
+    },
+    "form": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "company": "الشركة",
+      "phone": "الهاتف",
+      "message": "الرسالة",
+      "submit": "إرسال الرسالة"
+    },
+    "locations": {
+      "title": "مواقعنا",
+      "headquarters": "المقر الرئيسي",
+      "offices": "المكاتب الإقليمية"
+    }
+  },
+  "common": {
+    "learn_more": "اعرف المزيد",
+    "get_started": "ابدأ الآن",
+    "contact_us": "تواصل معنا",
+    "schedule_demo": "جدولة عرض توضيحي",
+    "read_more": "اقرأ المزيد",
+    "view_all": "عرض الكل",
+    "download": "تحميل",
+    "try_free": "جرب مجاناً",
+    "book_demo": "احجز عرض توضيحي",
+    "get_quote": "احصل على عرض سعر"
+  }
+}

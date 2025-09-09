@@ -1,0 +1,216 @@
+<!-- Webflow Element Examples with Localization -->
+
+<!-- Hero Section with Localized Content -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 data-translate="home.hero_title">Delicious Food Delivered Fast</h1>
+    <p data-translate="home.hero_subtitle">Order from your favorite restaurants and get it delivered to your doorstep in minutes</p>
+    <button class="cta-button" data-translate="home.cta_button">Order Now</button>
+  </div>
+  <div class="hero-image">
+    <img data-asset="hero-banner" alt="Hero banner" class="hero-img" />
+  </div>
+</section>
+
+<!-- Navigation with Localized Text -->
+<nav class="main-navigation">
+  <div class="nav-brand">
+    <img data-asset="logo" alt="GrubTech Logo" class="logo" />
+    <span class="brand-name">GrubTech</span>
+  </div>
+  <ul class="nav-menu">
+    <li class="nav-item">
+      <a href="/" data-translate="navigation.home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="/menu" data-translate="navigation.menu">Menu</a>
+    </li>
+    <li class="nav-item">
+      <a href="/about" data-translate="navigation.about">About</a>
+    </li>
+    <li class="nav-item">
+      <a href="/contact" data-translate="navigation.contact">Contact</a>
+    </li>
+  </ul>
+  <div class="nav-actions">
+    <button class="login-btn" data-translate="navigation.login">Login</button>
+    <button class="register-btn" data-translate="navigation.register">Register</button>
+  </div>
+</nav>
+
+<!-- Menu Section with Localized Content -->
+<section class="menu-section">
+  <div class="section-header">
+    <h2 data-translate="menu.categories">Categories</h2>
+    <p data-translate="menu.search_placeholder">Search for food, restaurants, or cuisines...</p>
+  </div>
+  
+  <div class="menu-grid">
+    <div class="menu-card">
+      <div class="menu-card-image">
+        <img data-asset="food-category" alt="Food category" class="menu-img" />
+      </div>
+      <div class="menu-card-content">
+        <h3 data-translate="menu.item1_name">Margherita Pizza</h3>
+        <p data-translate="menu.item1_description">Classic pizza with fresh tomatoes, mozzarella, and basil</p>
+        <div class="menu-card-footer">
+          <span class="price" data-translate="menu.price">Price: $12.99</span>
+          <button class="add-to-cart-btn" data-translate="menu.add_to_cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <div class="menu-card-image">
+        <img data-asset="food-category" alt="Food category" class="menu-img" />
+      </div>
+      <div class="menu-card-content">
+        <h3 data-translate="menu.item2_name">Chicken Burger</h3>
+        <p data-translate="menu.item2_description">Juicy grilled chicken breast with lettuce, tomato, and special sauce</p>
+        <div class="menu-card-footer">
+          <span class="price" data-translate="menu.price">Price: $9.99</span>
+          <button class="add-to-cart-btn" data-translate="menu.add_to_cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="how-it-works">
+  <h2 data-translate="home.how_it_works">How It Works</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-icon">
+        <img data-asset="feature-icon" alt="Step 1 icon" class="step-img" />
+      </div>
+      <h3 data-translate="home.step_1">Choose Your Food</h3>
+      <p data-translate="home.step_1_desc">Browse through hundreds of restaurants and cuisines</p>
+    </div>
+    
+    <div class="step">
+      <div class="step-icon">
+        <img data-asset="delivery-truck" alt="Step 2 icon" class="step-img" />
+      </div>
+      <h3 data-translate="home.step_2">Place Your Order</h3>
+      <p data-translate="home.step_2_desc">Add items to cart and checkout securely</p>
+    </div>
+    
+    <div class="step">
+      <div class="step-icon">
+        <img data-asset="restaurant-icon" alt="Step 3 icon" class="step-img" />
+      </div>
+      <h3 data-translate="home.step_3">Get It Delivered</h3>
+      <p data-translate="home.step_3_desc">Track your order and enjoy your meal</p>
+    </div>
+  </div>
+</section>
+
+<!-- Payment Methods Section -->
+<section class="payment-methods">
+  <h2 data-translate="checkout.payment_methods">Payment Methods</h2>
+  <div class="payment-options">
+    <img data-asset="payment-methods" alt="Payment methods" class="payment-img" />
+  </div>
+</section>
+
+<!-- Download App Section -->
+<section class="download-app">
+  <div class="download-content">
+    <h2 data-translate="home.download_app">Download Our App</h2>
+    <p data-translate="home.app_description">Get the best food delivery experience on your mobile device</p>
+    <div class="download-buttons">
+      <button class="download-btn app-store">
+        <img data-asset="app-icon" alt="App Store" class="download-icon" />
+        <div class="download-text">
+          <span data-translate="download.app_store">Download on the</span>
+          <span data-translate="download.app_store_name">App Store</span>
+        </div>
+      </button>
+      <button class="download-btn google-play">
+        <img data-asset="app-icon" alt="Google Play" class="download-icon" />
+        <div class="download-text">
+          <span data-translate="download.google_play">Get it on</span>
+          <span data-translate="download.google_play_name">Google Play</span>
+        </div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer with Localized Content -->
+<footer class="main-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3 data-translate="footer.company">Company</h3>
+      <ul class="footer-links">
+        <li><a href="/about" data-translate="navigation.about">About</a></li>
+        <li><a href="/careers" data-translate="footer.careers">Careers</a></li>
+        <li><a href="/press" data-translate="footer.press">Press</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h3 data-translate="footer.support">Support</h3>
+      <ul class="footer-links">
+        <li><a href="/help" data-translate="footer.help">Help Center</a></li>
+        <li><a href="/contact" data-translate="navigation.contact">Contact</a></li>
+        <li><a href="/faq" data-translate="footer.faq">FAQ</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h3 data-translate="footer.legal">Legal</h3>
+      <ul class="footer-links">
+        <li><a href="/privacy" data-translate="footer.privacy">Privacy Policy</a></li>
+        <li><a href="/terms" data-translate="footer.terms">Terms of Service</a></li>
+        <li><a href="/cookies" data-translate="footer.cookies">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p data-translate="footer.copyright">&copy; 2024 GrubTech. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Background Images with Localization -->
+<section class="promotion-section" data-asset-type="background" data-asset="promotion-banner">
+  <div class="promotion-content">
+    <h2 data-translate="promotions.title">Special Offers</h2>
+    <p data-translate="promotions.description">Get 20% off your first order</p>
+    <button class="promo-btn" data-translate="promotions.cta">Claim Offer</button>
+  </div>
+</section>
+
+<!-- Lazy Loading Images -->
+<section class="gallery-section">
+  <div class="gallery-grid">
+    <img data-lazy-asset="food-category" alt="Food 1" class="gallery-img" />
+    <img data-lazy-asset="food-category" alt="Food 2" class="gallery-img" />
+    <img data-lazy-asset="food-category" alt="Food 3" class="gallery-img" />
+    <img data-lazy-asset="food-category" alt="Food 4" class="gallery-img" />
+  </div>
+</section>
+
+<!-- Responsive Images -->
+<section class="responsive-section">
+  <img data-asset="hero-banner" 
+       alt="Responsive hero banner" 
+       class="responsive-img"
+       data-responsive="true" />
+</section>
+
+<!-- Class-based Translation (Alternative Method) -->
+<section class="alternative-translation">
+  <h1 class="translate-home-hero-title">Delicious Food Delivered Fast</h1>
+  <p class="translate-home-hero-subtitle">Order from your favorite restaurants</p>
+  <button class="translate-home-cta-button">Order Now</button>
+</section>
+
+<!-- Background Asset with Class -->
+<section class="localized-bg-hero-banner hero-background">
+  <div class="hero-overlay">
+    <h1 data-translate="home.hero_title">Delicious Food Delivered Fast</h1>
+  </div>
+</section>

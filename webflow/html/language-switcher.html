@@ -1,0 +1,218 @@
+<!-- Language Switcher Examples for Webflow -->
+
+<!-- Option 1: Select-based Language Switcher -->
+<div class="language-switcher select">
+  <select id="language-selector">
+    <option value="en">🌐 English</option>
+    <option value="en-US">🇺🇸 English (US)</option>
+    <option value="en-GB">🇬🇧 English (UK)</option>
+    <option value="en-AU">🇦🇺 English (AU)</option>
+    <option value="en-CA">🇨🇦 English (CA)</option>
+    <option value="en-NL">🇳🇱 English (NL)</option>
+    <option value="en-MX">🇲🇽 English (MX)</option>
+    <option value="en-NORDICS">🏔️ English (Nordics)</option>
+    <option value="en-ME">🏜️ English (ME)</option>
+    <option value="ar">🇸🇦 العربية</option>
+    <option value="ar-ME">🏜️ العربية (الشرق الأوسط)</option>
+    <option value="es">🌐 Español</option>
+    <option value="es-ES">🇪🇸 Español (España)</option>
+    <option value="es-US">🇺🇸 Español (US)</option>
+    <option value="es-MX">🇲🇽 Español (México)</option>
+    <option value="es-LATAM">🌎 Español (LATAM)</option>
+    <option value="fr">🌐 Français</option>
+    <option value="fr-FR">🇫🇷 Français (France)</option>
+    <option value="fr-CA">🇨🇦 Français (Canada)</option>
+    <option value="fr-BE">🇧🇪 Français (Belgique)</option>
+    <option value="fr-CH">🇨🇭 Français (Suisse)</option>
+    <option value="de-DE">🇩🇪 Deutsch</option>
+    <option value="it-IT">🇮🇹 Italiano</option>
+    <option value="pt-PT">🇵🇹 Português</option>
+    <option value="nl-NL">🇳🇱 Nederlands</option>
+    <option value="nl-BE">🇧🇪 Nederlands (België)</option>
+    <option value="sv-SE">🇸🇪 Svenska</option>
+  </select>
+</div>
+
+<!-- Option 2: Dropdown-based Language Switcher -->
+<div class="language-switcher dropdown">
+  <button class="language-trigger" aria-label="Select language">
+    <span class="language-flag">🌐</span>
+    <span class="language-name">English</span>
+    <span class="language-arrow">▼</span>
+  </button>
+  <div class="language-dropdown">
+    <button class="language-option active" data-locale="en">
+      <span class="language-flag">🌐</span>
+      <span class="language-name">English</span>
+    </button>
+    <button class="language-option" data-locale="en-US">
+      <span class="language-flag">🇺🇸</span>
+      <span class="language-name">English (US)</span>
+    </button>
+    <button class="language-option" data-locale="en-GB">
+      <span class="language-flag">🇬🇧</span>
+      <span class="language-name">English (UK)</span>
+    </button>
+    <button class="language-option" data-locale="en-AU">
+      <span class="language-flag">🇦🇺</span>
+      <span class="language-name">English (AU)</span>
+    </button>
+    <button class="language-option" data-locale="en-CA">
+      <span class="language-flag">🇨🇦</span>
+      <span class="language-name">English (CA)</span>
+    </button>
+    <button class="language-option" data-locale="en-NL">
+      <span class="language-flag">🇳🇱</span>
+      <span class="language-name">English (NL)</span>
+    </button>
+    <button class="language-option" data-locale="en-MX">
+      <span class="language-flag">🇲🇽</span>
+      <span class="language-name">English (MX)</span>
+    </button>
+    <button class="language-option" data-locale="en-NORDICS">
+      <span class="language-flag">🏔️</span>
+      <span class="language-name">English (Nordics)</span>
+    </button>
+    <button class="language-option" data-locale="en-ME">
+      <span class="language-flag">🏜️</span>
+      <span class="language-name">English (ME)</span>
+    </button>
+    <button class="language-option" data-locale="ar">
+      <span class="language-flag">🇸🇦</span>
+      <span class="language-name">العربية</span>
+    </button>
+    <button class="language-option" data-locale="ar-ME">
+      <span class="language-flag">🏜️</span>
+      <span class="language-name">العربية (الشرق الأوسط)</span>
+    </button>
+    <button class="language-option" data-locale="es">
+      <span class="language-flag">🌐</span>
+      <span class="language-name">Español</span>
+    </button>
+    <button class="language-option" data-locale="es-ES">
+      <span class="language-flag">🇪🇸</span>
+      <span class="language-name">Español (España)</span>
+    </button>
+    <button class="language-option" data-locale="es-US">
+      <span class="language-flag">🇺🇸</span>
+      <span class="language-name">Español (US)</span>
+    </button>
+    <button class="language-option" data-locale="es-MX">
+      <span class="language-flag">🇲🇽</span>
+      <span class="language-name">Español (México)</span>
+    </button>
+    <button class="language-option" data-locale="es-LATAM">
+      <span class="language-flag">🌎</span>
+      <span class="language-name">Español (LATAM)</span>
+    </button>
+    <button class="language-option" data-locale="fr">
+      <span class="language-flag">🌐</span>
+      <span class="language-name">Français</span>
+    </button>
+    <button class="language-option" data-locale="fr-FR">
+      <span class="language-flag">🇫🇷</span>
+      <span class="language-name">Français (France)</span>
+    </button>
+    <button class="language-option" data-locale="fr-CA">
+      <span class="language-flag">🇨🇦</span>
+      <span class="language-name">Français (Canada)</span>
+    </button>
+    <button class="language-option" data-locale="fr-BE">
+      <span class="language-flag">🇧🇪</span>
+      <span class="language-name">Français (Belgique)</span>
+    </button>
+    <button class="language-option" data-locale="fr-CH">
+      <span class="language-flag">🇨🇭</span>
+      <span class="language-name">Français (Suisse)</span>
+    </button>
+    <button class="language-option" data-locale="de-DE">
+      <span class="language-flag">🇩🇪</span>
+      <span class="language-name">Deutsch</span>
+    </button>
+    <button class="language-option" data-locale="it-IT">
+      <span class="language-flag">🇮🇹</span>
+      <span class="language-name">Italiano</span>
+    </button>
+    <button class="language-option" data-locale="pt-PT">
+      <span class="language-flag">🇵🇹</span>
+      <span class="language-name">Português</span>
+    </button>
+    <button class="language-option" data-locale="nl-NL">
+      <span class="language-flag">🇳🇱</span>
+      <span class="language-name">Nederlands</span>
+    </button>
+    <button class="language-option" data-locale="nl-BE">
+      <span class="language-flag">🇧🇪</span>
+      <span class="language-name">Nederlands (België)</span>
+    </button>
+    <button class="language-option" data-locale="sv-SE">
+      <span class="language-flag">🇸🇪</span>
+      <span class="language-name">Svenska</span>
+    </button>
+  </div>
+</div>
+
+<!-- Option 3: Button-based Language Switcher (Compact) -->
+<div class="language-switcher buttons">
+  <button class="lang-btn active" data-locale="en" title="English">
+    <span class="language-flag">🌐</span>
+    <span class="language-name">EN</span>
+  </button>
+  <button class="lang-btn" data-locale="en-US" title="English (US)">
+    <span class="language-flag">🇺🇸</span>
+    <span class="language-name">US</span>
+  </button>
+  <button class="lang-btn" data-locale="en-GB" title="English (UK)">
+    <span class="language-flag">🇬🇧</span>
+    <span class="language-name">UK</span>
+  </button>
+  <button class="lang-btn" data-locale="ar" title="Arabic">
+    <span class="language-flag">🇸🇦</span>
+    <span class="language-name">AR</span>
+  </button>
+  <button class="lang-btn" data-locale="es" title="Spanish">
+    <span class="language-flag">🇪🇸</span>
+    <span class="language-name">ES</span>
+  </button>
+  <button class="lang-btn" data-locale="fr" title="French">
+    <span class="language-flag">🇫🇷</span>
+    <span class="language-name">FR</span>
+  </button>
+  <button class="lang-btn" data-locale="de-DE" title="German">
+    <span class="language-flag">🇩🇪</span>
+    <span class="language-name">DE</span>
+  </button>
+  <button class="lang-btn" data-locale="it-IT" title="Italian">
+    <span class="language-flag">🇮🇹</span>
+    <span class="language-name">IT</span>
+  </button>
+  <button class="lang-btn" data-locale="pt-PT" title="Portuguese">
+    <span class="language-flag">🇵🇹</span>
+    <span class="language-name">PT</span>
+  </button>
+  <button class="lang-btn" data-locale="nl-NL" title="Dutch">
+    <span class="language-flag">🇳🇱</span>
+    <span class="language-name">NL</span>
+  </button>
+  <button class="lang-btn" data-locale="sv-SE" title="Swedish">
+    <span class="language-flag">🇸🇪</span>
+    <span class="language-name">SV</span>
+  </button>
+</div>
+
+<!-- Option 4: Mobile-optimized Language Switcher -->
+<div class="language-switcher mobile">
+  <select class="mobile-language-select">
+    <option value="en">🌐 EN</option>
+    <option value="en-US">🇺🇸 US</option>
+    <option value="en-GB">🇬🇧 UK</option>
+    <option value="ar">🇸🇦 AR</option>
+    <option value="es">🇪🇸 ES</option>
+    <option value="fr">🇫🇷 FR</option>
+    <option value="de-DE">🇩🇪 DE</option>
+    <option value="it-IT">🇮🇹 IT</option>
+    <option value="pt-PT">🇵🇹 PT</option>
+    <option value="nl-NL">🇳🇱 NL</option>
+    <option value="sv-SE">🇸🇪 SV</option>
+  </select>
+</div>

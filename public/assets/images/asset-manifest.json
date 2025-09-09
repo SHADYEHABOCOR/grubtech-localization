@@ -1,0 +1,305 @@
+{
+  "version": "1.0.0",
+  "assets": {
+    "hero-banner": {
+      "global": {
+        "path": "hero/hero-banner.jpg",
+        "alt": "Delicious food delivery hero banner",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      },
+      "en-US": {
+        "path": "hero/hero-banner-us.jpg",
+        "alt": "Fast food delivery in the United States",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      },
+      "en-GB": {
+        "path": "hero/hero-banner-uk.jpg",
+        "alt": "Quick food delivery in the United Kingdom",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      },
+      "ar": {
+        "path": "hero/hero-banner-ar.jpg",
+        "alt": "لافتة تسليم الطعام اللذيذ",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      },
+      "es": {
+        "path": "hero/hero-banner-es.jpg",
+        "alt": "Banner de entrega de comida deliciosa",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      },
+      "fr": {
+        "path": "hero/hero-banner-fr.jpg",
+        "alt": "Bannière de livraison de nourriture délicieuse",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      }
+    },
+    "logo": {
+      "global": {
+        "path": "logo/grubtech-logo.svg",
+        "alt": "GrubTech Logo",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"],
+        "sizes": ["sm", "md", "lg"]
+      },
+      "ar": {
+        "path": "logo/grubtech-logo-ar.svg",
+        "alt": "شعار جرابتك",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"],
+        "sizes": ["sm", "md", "lg"]
+      }
+    },
+    "delivery-truck": {
+      "global": {
+        "path": "icons/delivery-truck.svg",
+        "alt": "Delivery truck icon",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      },
+      "en-US": {
+        "path": "icons/delivery-truck-us.svg",
+        "alt": "US delivery truck icon",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      },
+      "en-GB": {
+        "path": "icons/delivery-van-uk.svg",
+        "alt": "UK delivery van icon",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      },
+      "ar": {
+        "path": "icons/delivery-motorcycle-ar.svg",
+        "alt": "أيقونة دراجة توصيل",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      },
+      "es-MX": {
+        "path": "icons/delivery-bike-mx.svg",
+        "alt": "Icono de bicicleta de entrega",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      },
+      "nl-NL": {
+        "path": "icons/delivery-bike-nl.svg",
+        "alt": "Nederlandse bezorgfiets icoon",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      }
+    },
+    "payment-methods": {
+      "global": {
+        "path": "icons/payment-methods.svg",
+        "alt": "Payment methods",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"]
+      },
+      "en-US": {
+        "path": "icons/payment-methods-us.svg",
+        "alt": "US payment methods",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"]
+      },
+      "en-GB": {
+        "path": "icons/payment-methods-uk.svg",
+        "alt": "UK payment methods",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"]
+      },
+      "de-DE": {
+        "path": "icons/payment-methods-de.svg",
+        "alt": "Deutsche Zahlungsmethoden",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"]
+      },
+      "nl-NL": {
+        "path": "icons/payment-methods-nl.svg",
+        "alt": "Nederlandse betaalmethoden",
+        "width": 200,
+        "height": 60,
+        "formats": ["svg", "png"]
+      }
+    },
+    "restaurant-icon": {
+      "global": {
+        "path": "icons/restaurant.svg",
+        "alt": "Restaurant icon",
+        "width": 32,
+        "height": 32,
+        "formats": ["svg", "png"]
+      },
+      "en-US": {
+        "path": "icons/restaurant-us.svg",
+        "alt": "US restaurant icon",
+        "width": 32,
+        "height": 32,
+        "formats": ["svg", "png"]
+      },
+      "fr-FR": {
+        "path": "icons/bistro-fr.svg",
+        "alt": "Icône de bistro français",
+        "width": 32,
+        "height": 32,
+        "formats": ["svg", "png"]
+      },
+      "it-IT": {
+        "path": "icons/trattoria-it.svg",
+        "alt": "Icona trattoria italiana",
+        "width": 32,
+        "height": 32,
+        "formats": ["svg", "png"]
+      },
+      "es-ES": {
+        "path": "icons/tapas-bar-es.svg",
+        "alt": "Icono de bar de tapas",
+        "width": 32,
+        "height": 32,
+        "formats": ["svg", "png"]
+      }
+    },
+    "app-icon": {
+      "global": {
+        "path": "icons/app-icon.png",
+        "alt": "GrubTech app icon",
+        "width": 180,
+        "height": 180,
+        "formats": ["png", "jpg"],
+        "sizes": ["sm", "md", "lg"]
+      }
+    },
+    "menu-background": {
+      "global": {
+        "path": "backgrounds/menu-bg.jpg",
+        "alt": "Menu background",
+        "width": 1920,
+        "height": 1080,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      }
+    },
+    "food-category": {
+      "global": {
+        "path": "icons/food-category.svg",
+        "alt": "Food category icon",
+        "width": 64,
+        "height": 64,
+        "formats": ["svg", "png"]
+      }
+    },
+    "promotion-banner": {
+      "global": {
+        "path": "backgrounds/promotion-banner.jpg",
+        "alt": "Promotion banner",
+        "width": 1200,
+        "height": 400,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg"]
+      }
+    },
+    "social-proof": {
+      "global": {
+        "path": "icons/social-proof.svg",
+        "alt": "Social proof icon",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      }
+    },
+    "testimonial-avatar": {
+      "global": {
+        "path": "icons/testimonial-avatar.jpg",
+        "alt": "Testimonial avatar",
+        "width": 80,
+        "height": 80,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md"]
+      }
+    },
+    "feature-icon": {
+      "global": {
+        "path": "icons/feature-icon.svg",
+        "alt": "Feature icon",
+        "width": 48,
+        "height": 48,
+        "formats": ["svg", "png"]
+      }
+    },
+    "cta-background": {
+      "global": {
+        "path": "backgrounds/cta-bg.jpg",
+        "alt": "Call to action background",
+        "width": 1920,
+        "height": 600,
+        "formats": ["jpg", "webp"],
+        "sizes": ["sm", "md", "lg", "xl"]
+      }
+    },
+    "footer-pattern": {
+      "global": {
+        "path": "backgrounds/footer-pattern.svg",
+        "alt": "Footer pattern",
+        "width": 1920,
+        "height": 200,
+        "formats": ["svg", "png"]
+      }
+    },
+    "loading-spinner": {
+      "global": {
+        "path": "icons/loading-spinner.svg",
+        "alt": "Loading spinner",
+        "width": 32,
+        "height": 32,
+        "formats": ["svg", "png"]
+      }
+    }
+  },
+  "fallbacks": {
+    "hero-banner": "hero/hero-banner-fallback.jpg",
+    "logo": "logo/grubtech-logo-fallback.svg",
+    "delivery-truck": "icons/delivery-truck-fallback.svg",
+    "payment-methods": "icons/payment-methods-fallback.svg",
+    "restaurant-icon": "icons/restaurant-fallback.svg",
+    "app-icon": "icons/app-icon-fallback.png"
+  },
+  "preload": [
+    "hero-banner",
+    "logo",
+    "app-icon"
+  ],
+  "critical": [
+    "hero-banner",
+    "logo",
+    "delivery-truck",
+    "payment-methods"
+  ]
+}

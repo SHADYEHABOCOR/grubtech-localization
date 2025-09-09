@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "restaurants": "Restaurants",
+    "solutions": "Solutions",
+    "integrations": "Integrations",
+    "resources": "Resources",
+    "company": "Company",
+    "login": "Log in",
+    "lets_talk": "Let's Talk",
+    "about_us": "About us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "knowledge_base": "Knowledge Base"
+  },
+  "hero": {
+    "title": "Smart restaurants run on Grubtech",
+    "subtitle": "We connect your restaurant systems - from online orders to POS to delivery - so everything runs smoother, faster, and smarter.",
+    "cta_button": "Let's Talk",
+    "learn_more": "Learn More"
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "based_on_size": "Based on size",
+    "independent_smes": "Independent & SMEs",
+    "regional_chains": "Regional Chains",
+    "global_brands": "Global Brands",
+    "dark_kitchens": "Dark Kitchens"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "subtitle": "Your all-in-one integration hub for handling orders, managing menus and streamlining operations effortlessly.",
+    "gonline": {
+      "title": "The simpler, faster way to manage your orders",
+      "description": "Say goodbye to paper tickets and cook with precision."
+    },
+    "gdispatch": {
+      "title": "Get orders out the door faster with real-time delivery coordination."
+    },
+    "gdata": {
+      "title": "Unlock powerful insights about your restaurant."
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "our_integrations": "Our Integrations",
+    "pos_systems": "POS Systems",
+    "delivery_platforms": "Delivery Platforms",
+    "fulfillment": "Fulfillment",
+    "erp_systems": "ERP Systems",
+    "our_partners": "Our Partners",
+    "partners_description": "A connected ecosystem with 300+ global partners to support your restaurant's success.",
+    "learn_more": "Learn more"
+  },
+  "resources": {
+    "title": "Resources",
+    "blog": {
+      "title": "Blog",
+      "description": "Fresh insights, expert tips, and the latest in restaurant tech"
+    },
+    "knowledge_base": {
+      "title": "Knowledge Base",
+      "description": "From setup to success - find all the guidance you need"
+    }
+  },
+  "company": {
+    "title": "Company",
+    "about_us": {
+      "title": "About us",
+      "description": "Learn about our journey, who we are, and what we do."
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "We're hiring! We're always looking for talented people. Join our team!"
+    }
+  },
+  "stats": {
+    "uptime": "Uptime Guaranteed",
+    "uptime_description": "Reliable, always-on technology to keep your business running.",
+    "orders_processed": "Orders Processed",
+    "orders_description": "Seamless transactions for restaurants worldwide.",
+    "integration_partners": "Integration Partners",
+    "partners_description": "Connecting you with the best tools in the industry."
+  },
+  "features": {
+    "title": "Built with your restaurant in mind",
+    "single_multi_location": "Single & Multi-location Restaurants",
+    "regional_chains": "Regional Chains",
+    "international_brands": "International Brands",
+    "delivery_only_kitchens": "Delivery-Only Kitchens",
+    "keep_service_sharp": "Keep service sharp and operations lean",
+    "simplify_operations": "Simplify restaurant operations and focus on what matters, serving great food.",
+    "process_orders": "Process dine-in, takeaway, and delivery orders seamlessly",
+    "automate_routing": "Automate order routing",
+    "understand_habits": "Understand guest habits, top-selling platos, and peak horarios with real-time insights",
+    "read_more": "Read more"
+  },
+  "powering": "Powering 10K+ Restaurants Globally"
+}

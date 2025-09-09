@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "restaurants": "Restaurantes",
+    "solutions": "Soluciones",
+    "integrations": "Integraciones",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "login": "Iniciar sesión",
+    "lets_talk": "Hablemos",
+    "about_us": "Acerca de nosotros",
+    "careers": "Carreras",
+    "blog": "Blog",
+    "knowledge_base": "Base de conocimientos"
+  },
+  "hero": {
+    "title": "Los restaurantes inteligentes funcionan con Grubtech",
+    "subtitle": "Conectamos los sistemas de tu restaurante - desde pedidos en línea hasta POS hasta entrega - para que todo funcione más suave, rápido e inteligente.",
+    "cta_button": "Hablemos",
+    "learn_more": "Saber más"
+  },
+  "restaurants": {
+    "title": "Restaurantes",
+    "based_on_size": "Basado en tamaño",
+    "independent_smes": "Independientes y PYME",
+    "regional_chains": "Cadenas regionales",
+    "global_brands": "Marcas globales",
+    "dark_kitchens": "Cocinas oscuras"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "subtitle": "Tu centro de integración todo en uno para manejar pedidos, gestionar menús y optimizar operaciones sin esfuerzo.",
+    "gonline": {
+      "title": "La forma más simple y rápida de gestionar tus pedidos",
+      "description": "Di adiós a los tickets de papel y cocina con precisión."
+    },
+    "gdispatch": {
+      "title": "Saca los pedidos más rápido con coordinación de entrega en tiempo real."
+    },
+    "gdata": {
+      "title": "Desbloquea insights poderosos sobre tu restaurante."
+    }
+  },
+  "integrations": {
+    "title": "Integraciones",
+    "our_integrations": "Nuestras integraciones",
+    "pos_systems": "Sistemas POS",
+    "delivery_platforms": "Plataformas de entrega",
+    "fulfillment": "Cumplimiento",
+    "erp_systems": "Sistemas ERP",
+    "our_partners": "Nuestros socios",
+    "partners_description": "Un ecosistema conectado con más de 300 socios globales para apoyar el éxito de tu restaurante.",
+    "learn_more": "Saber más"
+  },
+  "resources": {
+    "title": "Recursos",
+    "blog": {
+      "title": "Blog",
+      "description": "Insights frescos, consejos de expertos y lo último en tecnología de restaurantes"
+    },
+    "knowledge_base": {
+      "title": "Base de conocimientos",
+      "description": "Desde la configuración hasta el éxito - encuentra toda la orientación que necesitas"
+    }
+  },
+  "company": {
+    "title": "Empresa",
+    "about_us": {
+      "title": "Acerca de nosotros",
+      "description": "Conoce nuestro viaje, quiénes somos y qué hacemos."
+    },
+    "careers": {
+      "title": "Carreras",
+      "description": "¡Estamos contratando! Siempre buscamos personas talentosas. ¡Únete a nuestro equipo!"
+    }
+  },
+  "stats": {
+    "uptime": "Tiempo de actividad garantizado",
+    "uptime_description": "Tecnología confiable y siempre activa para mantener tu negocio funcionando.",
+    "orders_processed": "Pedidos procesados",
+    "orders_description": "Transacciones perfectas para restaurantes en todo el mundo.",
+    "integration_partners": "Socios de integración",
+    "partners_description": "Conectándote con las mejores herramientas de la industria."
+  },
+  "features": {
+    "title": "Construido con tu restaurante en mente",
+    "single_multi_location": "Restaurantes únicos y multi-ubicación",
+    "regional_chains": "Cadenas regionales",
+    "international_brands": "Marcas internacionales",
+    "delivery_only_kitchens": "Cocinas solo de entrega",
+    "keep_service_sharp": "Mantén el servicio agudo y las operaciones ágiles",
+    "simplify_operations": "Simplifica las operaciones del restaurante y enfócate en lo que importa, servir comida excelente.",
+    "process_orders": "Procesa pedidos para comer en el local, para llevar y entrega sin problemas",
+    "automate_routing": "Automatiza el enrutamiento de pedidos",
+    "understand_habits": "Comprende los hábitos de los huéspedes, los platos más vendidos y las horas pico con insights en tiempo real",
+    "read_more": "Leer más"
+  },
+  "powering": "Impulsando más de 10K restaurantes globalmente"
+}

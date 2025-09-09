@@ -1,0 +1,297 @@
+/**
+ * RTL Support Styles for Webflow
+ * Styles for right-to-left language support
+ */
+
+/* RTL Base Styles */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] * {
+  text-align: inherit;
+}
+
+/* RTL Layout Adjustments */
+[dir="rtl"] .container {
+  direction: rtl;
+}
+
+[dir="rtl"] .row {
+  direction: rtl;
+}
+
+[dir="rtl"] .col {
+  direction: rtl;
+}
+
+/* RTL Navigation */
+[dir="rtl"] .nav {
+  direction: rtl;
+}
+
+[dir="rtl"] .nav-item {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+[dir="rtl"] .nav-item:last-child {
+  margin-right: 0;
+}
+
+/* RTL Buttons */
+[dir="rtl"] .btn {
+  direction: rtl;
+}
+
+[dir="rtl"] .btn-group {
+  direction: rtl;
+}
+
+/* RTL Forms */
+[dir="rtl"] .form-group {
+  direction: rtl;
+}
+
+[dir="rtl"] .form-control {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .form-label {
+  text-align: right;
+}
+
+/* RTL Cards */
+[dir="rtl"] .card {
+  direction: rtl;
+}
+
+[dir="rtl"] .card-body {
+  text-align: right;
+}
+
+/* RTL Lists */
+[dir="rtl"] .list-group {
+  direction: rtl;
+}
+
+[dir="rtl"] .list-group-item {
+  text-align: right;
+}
+
+/* RTL Tables */
+[dir="rtl"] .table {
+  direction: rtl;
+}
+
+[dir="rtl"] .table th,
+[dir="rtl"] .table td {
+  text-align: right;
+}
+
+/* RTL Modals */
+[dir="rtl"] .modal {
+  direction: rtl;
+}
+
+[dir="rtl"] .modal-header {
+  direction: rtl;
+}
+
+[dir="rtl"] .modal-body {
+  text-align: right;
+}
+
+[dir="rtl"] .modal-footer {
+  direction: rtl;
+}
+
+/* RTL Language Switcher */
+[dir="rtl"] .language-switcher {
+  direction: rtl;
+}
+
+[dir="rtl"] .language-dropdown {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .language-option {
+  text-align: right;
+}
+
+/* RTL Typography */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  text-align: right;
+}
+
+[dir="rtl"] p {
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right !important;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left !important;
+}
+
+/* RTL Spacing */
+[dir="rtl"] .ml-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+[dir="rtl"] .pl-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+[dir="rtl"] .pr-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* RTL Flexbox */
+[dir="rtl"] .d-flex {
+  direction: rtl;
+}
+
+[dir="rtl"] .justify-content-start {
+  justify-content: flex-end !important;
+}
+
+[dir="rtl"] .justify-content-end {
+  justify-content: flex-start !important;
+}
+
+/* RTL Grid */
+[dir="rtl"] .grid {
+  direction: rtl;
+}
+
+/* RTL Images */
+[dir="rtl"] .img-fluid {
+  direction: rtl;
+}
+
+/* RTL Icons */
+[dir="rtl"] .icon {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-arrow-left {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-arrow-right {
+  transform: scaleX(-1);
+}
+
+/* RTL Animations */
+[dir="rtl"] .slide-in-left {
+  animation: slideInRight 0.3s ease;
+}
+
+[dir="rtl"] .slide-in-right {
+  animation: slideInLeft 0.3s ease;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* RTL Specific Elements */
+[dir="rtl"] .hero-content {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-title {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-subtitle {
+  text-align: right;
+}
+
+[dir="rtl"] .menu-item {
+  direction: rtl;
+}
+
+[dir="rtl"] .menu-item-name {
+  text-align: right;
+}
+
+[dir="rtl"] .menu-item-description {
+  text-align: right;
+}
+
+[dir="rtl"] .menu-item-price {
+  text-align: right;
+}
+
+/* RTL Footer */
+[dir="rtl"] .footer {
+  direction: rtl;
+}
+
+[dir="rtl"] .footer-content {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-links {
+  direction: rtl;
+}
+
+/* RTL Mobile Adjustments */
+@media (max-width: 768px) {
+  [dir="rtl"] .mobile-nav {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .mobile-menu {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .mobile-menu-item {
+    text-align: right;
+  }
+}
+
+/* RTL Print Styles */
+@media print {
+  [dir="rtl"] {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] * {
+    text-align: right;
+  }
+}
