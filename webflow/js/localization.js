@@ -8,7 +8,10 @@ class GrubTechLocalization {
     // Default configuration
     // Auto-detect environment and set appropriate domain
     const isProduction = window.location.hostname === 'grubtech.com' || window.location.hostname === 'www.grubtech.com';
-    const baseDomain = isProduction ? 'https://grubtech.com' : 'https://your-test-domain.com';
+    const isTesting = window.location.hostname === 'gt-website-1-2-2e65d3.webflow.io';
+    
+    // Use CDN URLs for all environments
+    const cdnBase = 'https://cdn.jsdelivr.net/gh/SHADYEHABOCOR/grubtech-localization@main';
     
     this.config = {
       defaultLocale: 'en',
@@ -19,9 +22,9 @@ class GrubTechLocalization {
         'fr', 'fr-FR', 'fr-CA', 'fr-BE', 'fr-CH',
         'de-DE', 'it-IT', 'pt-PT', 'nl-NL', 'nl-BE', 'sv-SE'
       ],
-      translationsPath: `${baseDomain}/src/translations/`,
-      assetsPath: `${baseDomain}/public/assets/images/`,
-      webhookEndpoint: `${baseDomain}/api/webhook/translations`,
+      translationsPath: `${cdnBase}/src/translations/`,
+      assetsPath: `${cdnBase}/public/assets/images/`,
+      webhookEndpoint: isProduction ? 'https://grubtech.com/api/webhook/translations' : `${cdnBase}/api/webhook/translations`,
       autoDetect: true,
       savePreference: true,
       rtlSupport: true,

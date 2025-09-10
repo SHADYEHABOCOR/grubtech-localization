@@ -5,12 +5,11 @@
 
 class AssetLoader {
   constructor(options = {}) {
-    // Auto-detect environment and set appropriate domain
-    const isProduction = window.location.hostname === 'grubtech.com' || window.location.hostname === 'www.grubtech.com';
-    const baseDomain = isProduction ? 'https://grubtech.com' : 'https://your-test-domain.com';
+    // Use CDN URLs for all environments
+    const cdnBase = 'https://cdn.jsdelivr.net/gh/SHADYEHABOCOR/grubtech-localization@main';
     
     this.config = {
-      assetsPath: `${baseDomain}/public/assets/images/`,
+      assetsPath: `${cdnBase}/public/assets/images/`,
       cacheEnabled: true,
       preloadEnabled: true,
       lazyLoadEnabled: true,
