@@ -12,8 +12,8 @@ Webflow Cloud serves a static site from a GitHub branch at a chosen **mount path
 
 ### How We Deploy
 
-1. **Push to `main`** → GitHub Action builds → pushes static files to `webflow-build` branch
-2. **Webflow Cloud environment** is linked to `webflow-build` branch
+1. **Push to `main`** → GitHub Action builds → pushes static files to `main` branch
+2. **Webflow Cloud environment** is linked to `main` branch
 3. **Click Deploy/Publish** in Webflow → app is live at `https://<domain>/localization`
 
 ### Deployment Status

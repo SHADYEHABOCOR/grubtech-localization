@@ -117,7 +117,7 @@ EOF
           test -f out/index.html || (echo "ERROR: index.html not found in artifact" && exit 1)
           echo "✅ index.html found"
           
-      - name: Publish to webflow-build branch
+      - name: Publish to main branch
         run: |
           cd out
           git init
@@ -125,21 +125,21 @@ EOF
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Build for Webflow Cloud - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git branch -M webflow-build
+          git branch -M main
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push -f origin webflow-build
+          git push -f origin main
           
       - name: Deployment Summary
         run: |
           echo "## 🚀 Webflow Cloud Build Complete" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "✅ Static site built successfully" >> $GITHUB_STEP_SUMMARY
-          echo "✅ Published to \`webflow-build\` branch" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Published to \`main\` branch" >> $GITHUB_STEP_SUMMARY
           echo "✅ Ready for Webflow Cloud deployment" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Next Steps:**" >> $GITHUB_STEP_SUMMARY
           echo "1. Go to your Webflow Cloud environment" >> $GITHUB_STEP_SUMMARY
-          echo "2. Link to \`webflow-build\` branch" >> $GITHUB_STEP_SUMMARY
+          echo "2. Ensure branch is set to \`main\`" >> $GITHUB_STEP_SUMMARY
           echo "3. Set mount path to \`/localization\`" >> $GITHUB_STEP_SUMMARY
           echo "4. Click **Deploy**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
