@@ -13,10 +13,22 @@
     "knowledge_base": "Knowledge Base"
   },
   "hero": {
-    "title": "Smart restaurants run on Grubtech",
-    "subtitle": "We connect your restaurant systems - from online orders to POS to delivery - so everything runs smoother, faster, and smarter.",
+    "title": "GrubTech Localization System",
+    "subtitle": "Multi-language support with real-time translation updates",
     "cta_button": "Let's Talk",
     "learn_more": "Learn More"
+  },
+  "demo": {
+    "section_title": "Demo Section",
+    "feature_1_title": "Multi-language Support",
+    "feature_1_desc": "Support for 25+ regional variants including English, Arabic, Spanish, French, German, Italian, Portuguese, Dutch, and Swedish.",
+    "feature_2_title": "RTL Support",
+    "feature_2_desc": "Full right-to-left language support for Arabic with proper text direction and layout adjustments.",
+    "feature_3_title": "Real-time Updates",
+    "feature_3_desc": "Webhook integration for live translation updates without requiring page refreshes."
+  },
+  "footer": {
+    "copyright": "© 2024 GrubTech. All rights reserved."
   },
   "restaurants": {
     "title": "Restaurants",

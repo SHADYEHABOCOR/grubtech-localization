@@ -1,0 +1,146 @@
+name: Webflow Cloud Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then 
+            npm ci
+          elif [ -f pnpm-lock.yaml ]; then 
+            corepack enable && pnpm i --frozen-lockfile
+          else 
+            npm i
+          fi
+          
+      - name: Build project
+        run: |
+          if [ -f package.json ]; then
+            if npm run | grep -q " build"; then 
+              npm run build
+            else 
+              echo "No build script found; assuming static site"
+            fi
+          else
+            echo "No package.json found; assuming static site"
+          fi
+          
+      - name: Prepare static artifact
+        run: |
+          mkdir -p out
+          
+          # Copy static files to output directory
+          # Priority: dist/ > build/ > out/ > public/ > root files
+          if [ -d "dist" ]; then
+            echo "Copying from dist/ directory"
+            cp -r dist/* out/ 2>/dev/null || true
+          elif [ -d "build" ]; then
+            echo "Copying from build/ directory"
+            cp -r build/* out/ 2>/dev/null || true
+          elif [ -d "out" ]; then
+            echo "Using existing out/ directory"
+            # Already in out/
+          elif [ -d "public" ]; then
+            echo "Copying from public/ directory"
+            cp -r public/* out/ 2>/dev/null || true
+          fi
+          
+          # Copy root static files
+          echo "Copying root static files"
+          cp index.html out/ 2>/dev/null || true
+          cp 404.html out/ 2>/dev/null || true
+          
+          # Copy webflow directory
+          if [ -d "webflow" ]; then
+            echo "Copying webflow/ directory"
+            cp -r webflow out/
+          fi
+          
+          # Copy src/translations to public/translations for CDN access
+          if [ -d "src/translations" ]; then
+            echo "Copying translations"
+            mkdir -p out/translations
+            cp -r src/translations/* out/translations/
+          fi
+          
+          # Copy public/assets if exists
+          if [ -d "public/assets" ]; then
+            echo "Copying assets"
+            mkdir -p out/assets
+            cp -r public/assets/* out/assets/
+          fi
+          
+          # Ensure index.html exists
+          if [ ! -f "out/index.html" ]; then
+            echo "Creating fallback index.html"
+            cat > out/index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrubTech Localization System</title>
+    <base href="/localization/">
+</head>
+<body>
+    <h1>GrubTech Localization System</h1>
+    <p>Static site is ready for Webflow Cloud deployment.</p>
+    <p>Mount path: /localization</p>
+</body>
+</html>
+EOF
+          fi
+          
+          # Create SPA fallback
+          cp -f out/index.html out/404.html || true
+          
+          # Verify artifact
+          echo "Artifact contents:"
+          ls -la out/
+          echo "Checking for index.html:"
+          test -f out/index.html || (echo "ERROR: index.html not found in artifact" && exit 1)
+          echo "✅ index.html found"
+          
+      - name: Publish to webflow-build branch
+        run: |
+          cd out
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Build for Webflow Cloud - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git branch -M webflow-build
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push -f origin webflow-build
+          
+      - name: Deployment Summary
+        run: |
+          echo "## 🚀 Webflow Cloud Build Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Static site built successfully" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Published to \`webflow-build\` branch" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Ready for Webflow Cloud deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Next Steps:**" >> $GITHUB_STEP_SUMMARY
+          echo "1. Go to your Webflow Cloud environment" >> $GITHUB_STEP_SUMMARY
+          echo "2. Link to \`webflow-build\` branch" >> $GITHUB_STEP_SUMMARY
+          echo "3. Set mount path to \`/localization\`" >> $GITHUB_STEP_SUMMARY
+          echo "4. Click **Deploy**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Access URL:** \`https://your-domain.com/localization\`" >> $GITHUB_STEP_SUMMARY

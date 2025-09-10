@@ -2,6 +2,33 @@
 
 A comprehensive localization system for the GrubTech website with external translation files and webhook integration for real-time updates.
 
+## 🌐 Webflow Cloud Deployment
+
+This repository is configured for **Webflow Cloud** deployment with automatic builds and static site generation.
+
+### What is Webflow Cloud?
+
+Webflow Cloud serves a static site from a GitHub branch at a chosen **mount path** inside a Webflow site. It does not run servers; it just hosts the built files. Our environment mounts at `/localization`.
+
+### How We Deploy
+
+1. **Push to `main`** → GitHub Action builds → pushes static files to `webflow-build` branch
+2. **Webflow Cloud environment** is linked to `webflow-build` branch
+3. **Click Deploy/Publish** in Webflow → app is live at `https://<domain>/localization`
+
+### Deployment Status
+
+- ✅ **Static Site**: Ready for Webflow Cloud
+- ✅ **Build Automation**: GitHub Actions configured
+- ✅ **Mount Path**: `/localization`
+- ✅ **SPA Support**: 404.html fallback included
+- ✅ **Asset Paths**: Relative paths for proper loading
+
+### Access URLs
+
+- **Staging**: `https://gt-website-1-2-2e65d3.webflow.io/localization`
+- **Production**: `https://grubtech.com/localization` (when deployed)
+
 ## 🌟 Features
 
 - **Multi-language Support**: 25+ Regional Variants including English (Global, US, UK, AU, CA, NL, MX, Nordics, ME), Arabic (Global, ME), Spanish (Global, ES, US, MX, LATAM), French (Global, FR, CA, BE, CH), German (DE), Italian (IT), Portuguese (PT), Dutch (NL, BE), Swedish (SE)
